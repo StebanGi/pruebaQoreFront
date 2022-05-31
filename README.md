@@ -1,20 +1,19 @@
 # pruebaQoreFront
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Requirements
+- **Node**: 8.5.5
 
 ## Project Setup
-
+clone project with:
+```
+git clone https://github.com/StebanGi/pruebaQoreFront.git+
+cd pruebaQoreFront
+```
+Install node packages and modules
 ```sh
 npm install
 ```
+- additional packages for **npm install**, vue-router, axios
 
 ### Compile and Hot-Reload for Development
 
@@ -27,3 +26,6 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Notes
+- Vue project requests Laravel api on localhost:8000
